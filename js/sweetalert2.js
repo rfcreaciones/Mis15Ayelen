@@ -5,14 +5,14 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Axel Hernández Vázquez y Daniela Ortega Avila</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia al Bautizo y 1° Aniversario de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Romina Hernández Ortega</p></div>',
+	html:'<p class="textos-alert-inicio">Ana Rivera Sandoval <br> y<br> Ivan Rosales Trejo</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia al XV aniversario de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Ayelen Rosales Rivera</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
-	confirmButtonColor: "#F893FF",
+	confirmButtonColor: "#ec0606ec",
 	footer:'Te Esperamos, No Faltes!',
 	width:'100%',
 	allowOutsideClick: false,
-	background: 'url(img/inicio.jpg)',
+	// background: '#fff url(img/indx.jpg)',
 	
 	// background:'rgba(0,0,123,0.4)'
 	// imageUrl: 'https://unsplash.it/400/200',
@@ -25,8 +25,7 @@ Swal.fire({
 		audio.play();
 		$('.volumen').attr("src","img/no-sound.png");
 		$('div').removeClass('visible')
-		
-		$( "#onload" ).fadeOut(2000);
+		$( "#onload" ).fadeOut(5000);
 		$("body").removeClass("hidden");
 
 
@@ -37,26 +36,23 @@ Swal.fire({
 
 
 $('#ceremonia').click(function () {
-	Swal.fire({
-		title:'Ubicación de la Ceremonia Religiosa ',
-		//text: '',
-	
-		html:'<p>Calle Corregidora S/N Barrio Santa Bárbara Atlatlahuacan Morelos</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8892833166683!2d-98.90060997479812!3d18.936294182239724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce6b0de9bdd429%3A0xbe8e5fd6570834af!2sSede%20Parroquial%20San%20Mateo!5e0!3m2!1ses-419!2smx!4v1755625965487!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
-		//icon:'success'
-		confirmButtonText:'Cerrar',
-		//footer:'Parroquia de Dulce Nombre de Jesus ',
-	
-	});
-	});
-	
+Swal.fire({
+	title:'Ubicación de la Ceremonía ',
+	//text: '',
+	html:'<p>Parroquia de Santa Isabel Chalma<br>Cuándo: 30 de Junio de 2024<br>Dirección:Manzana 004, 56935 Santa Isabel Chalma, Méx.</p><div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1884.443951957966!2d-98.76400439800341!3d19.156383477114716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce3cba0f600bfd%3A0xcfeb02ed0401c784!2sCapilla%20de%20Santa%20Isabel!5e0!3m2!1ses-419!2smx!4v1713588646744!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
+	//icon:'success'
+	confirmButtonText:'Cerrar',
+	//footer:'Parroquia de Dulce Nombre de Jesus ',
 
+});
+});
 
 $('#recepcion').click(function () {
 	Swal.fire({
 		title:'Ubicación de la Recepción ',
 		//text: '',
 	
-		html:'<p>Calle Galeana S/N Barrio Santo Tomas, Atlatlahuacan Morelos</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.798688264861!2d-98.90176922479799!3d18.940302782236483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce6b125a3416d5%3A0xa4ec79737b308fd7!2sSalon%20%22El%20Mega%22!5e0!3m2!1ses-419!2smx!4v1755625760746!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
+		html:'<p>Calle Campo Florido No. 10 Colonia Santa Isabel Chalma Amecameca Edo.Mex.</p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d235.55362342303903!2d-98.7641372086852!3d19.157693202598626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1714763394986!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
 		//icon:'success'
 		confirmButtonText:'Cerrar',
 		//footer:'Parroquia de Dulce Nombre de Jesus ',
