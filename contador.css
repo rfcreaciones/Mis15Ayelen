@@ -44,7 +44,6 @@
 	font-size: 25px;
 	color: black;
 	text-align: center;
-
 }
 
 
@@ -77,19 +76,18 @@
 
 .simply-amount {
 	display: block;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 800;
-	color: #F893FF;
-	 font-family: 'Bisney', sans-serif;
+	color: rgb(59, 56, 5);
+	font-family: 'Dancing Script', cursive;
 	text-align: center;
 }
 
 .simply-word {
 	font-weight: 400;
 	font-size: 15px;
-	color:#27ADF5;
+	color: rgb(59, 56, 5);
 	text-align: center;
-
 }
 
 }
