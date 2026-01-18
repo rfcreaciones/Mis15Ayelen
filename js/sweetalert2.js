@@ -8,11 +8,11 @@ Swal.fire({
 	html:'<p class="textos-alert-inicio">Ana Rivera Sandoval <br> y<br> Ivan Rosales Trejo</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia al XV aniversario de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Ayelen Rosales Rivera</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
-	confirmButtonColor: "#ec0606ec",
+	confirmButtonColor: "#d6b2e7",
 	footer:'Te Esperamos, No Faltes!',
 	width:'100%',
 	allowOutsideClick: false,
-	// background: '#fff url(img/indx.jpg)',
+	background: '#fff url(img/fondo3.jpg)',
 	
 	// background:'rgba(0,0,123,0.4)'
 	// imageUrl: 'https://unsplash.it/400/200',

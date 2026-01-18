@@ -38,7 +38,7 @@ LOADER */
 
 .lds-heart {
     /* change color here */
-    color: #e677ca
+    color: #8db6ef
   }
 .lds-heart,
 .lds-heart div,
@@ -107,7 +107,7 @@ LOADER */
 
 
 .mensaje{
-    color: #e677ca;
+    color: #8db6ef;
     font-size: 20px;
     text-align: center;
     animation: ms .5s alternate infinite ease-in-out;
@@ -216,7 +216,7 @@ LOADER */
 
     /* fallback for old browsers */
 
-    background: #eeede8;
+     background-image: url(img/fondo2.jpg);
     background-size: cover;
 
     position:relative;
@@ -236,7 +236,7 @@ LOADER */
 
 
 h2{
-    color:#ec0606ec;
+    color:#d6b2e7;
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
@@ -277,7 +277,7 @@ h4{
     border-radius: 5px;
     border: none;
     background-size: 120% auto;
-    background-image: linear-gradient(315deg, rgba(248, 9, 9, 0.925) 0%, #fceabb 75%);
+    background-image: linear-gradient(315deg, #8db6ef 0%, #d6b2e747 75%);
   }
   .css-button-gradient--3:hover {
     background-position: right center;
@@ -300,7 +300,7 @@ h4{
 .textos-alert-inicio-T2{
     font-size: 60px;
     font-weight:lighter;
-    color:#fb3cde;
+    color:#8db6ef;
     font-family: 'Rouge Script', cursive;
     text-align: center;
 }
@@ -382,6 +382,8 @@ h4{
 
 .service{
     margin-bottom: 20px;
+     background-image: url(img/fondo.jpg);
+     border-radius: 5%;
 }
 
 .n-service{
@@ -405,7 +407,7 @@ h4{
 }
 
 .gallery{
-    background: #f2f2f2;
+   background-image: url(img/fondo3.jpg);
 }
 
 .contenedor-galeria{
@@ -468,7 +470,7 @@ h4{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background: #d1d08b88;
+  background-image: url(img/index.jpg);
     border-radius: 30px;
 }
 
@@ -510,6 +512,7 @@ h4{
     display: inline-block;
     margin-top: 20px;
     font-weight: 400;
+    color:#8db6ef;
 }
 
 footer{
@@ -523,6 +526,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+       background-image: linear-gradient(to top, #a18cd13b 0%, #fbc2eb45 100%);
+
 
     /* vh es la altura del dispositivo */
     height: 100%;  
@@ -542,7 +547,7 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(to top, #d1d08b88 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    background-image: url(img/index.jpg);
     border-radius: 30px;
     text-align: center;
     
@@ -565,9 +570,9 @@ footer{
     justify-content: center;
     align-items: center;
     /* vh es la altura del dispositivo */
-    height: 60vh;  
+    height: 80vh;  
     /* fallback for old browsers */
-    background:#d1d08b88;
+    background:white;
     background-size: cover;
     position:relative;
 }
@@ -578,7 +583,7 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(to top, #ffffff67 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    background-image: url(img/fondo4.jpg);
     border-radius: 30px;
     text-align: center;
 }
